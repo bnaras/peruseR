@@ -10,6 +10,7 @@ NULL
 #' Display what is available in the \code{peruser} package
 #'
 #' @description At the moment, not too much.
-peruser <- function() {
+#' @export
+peruseR <- function() {
     list.files(system.file("template", package="peruseR"))
 }
