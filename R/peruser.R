@@ -12,5 +12,6 @@ NULL
 #' @description At the moment, not too much.
 #' @export
 peruseR <- function() {
-    list.files(system.file("template", package="peruseR"))
+    cat(paste0("Examine doc in: ", system.file("doc", package="peruseR"), "\n"))
+    cat(paste0("Examine files in: ", system.file("templates", package="peruseR"), "\n"))
 }
